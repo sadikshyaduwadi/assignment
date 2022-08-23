@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+</head>
+<body>
+    <h2>HTML Form Test</h2>
+    <table width="100%" cellspacing="4" cellpadding="7" align="left">
+        <tr>
+            <th>Name</th>
+            <td>
+                <input type="text" name="name" required> 
+            </td> 
+        </tr><br>
+        <tr>
+            <th>Address</th>
+            <td>
+                <input type="text" name="address" required>
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>
+                <input type="email" name="email" required>
+            </td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>
+                <input type="radio" name="male" required> Male
+                <input type="radio" name="Female" required>Female
+            </td>
+        </tr> 
+        <tr> 
+            <th>Hobbies</th>
+            <td>
+                <input type="checkbox" name="sports">Sports
+                <input type="checkbox" name="Movies">Movies
+                <input type="checkbox" name="travelling">Travelling
+            </td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>
+                <select name="country" size="1">
+                    <option value="Nepal">Nepal</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Bali">Bali</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Message</th>
+            <td>
+                <textarea name="message" cols="50" rows="7"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+           <td>
+            <input type="submit" name="submit" value="Submit">
+            <input type="reset" name="reset" value="Reset">
+           </td>
+        </tr>
+    </table> 
+</body>
+</html>

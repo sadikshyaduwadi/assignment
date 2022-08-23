@@ -1,0 +1,56 @@
+#container{
+    width: 1080px;
+    height: 800px;
+    margin: auto;
+}
+.header{
+    font-family: Verdana, sans-serif;
+    background-color: #ccaa66;
+    height: 85px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+
+  }
+.nav{
+    font-family: Verdana, sans-serif;
+    background-color: #E8D882;
+    width: 200px;
+    height: 223px;
+    padding: 20px;
+    border-left: solid;
+  }
+a{
+    text-decoration: none;
+}
+.description{
+    font-family: Verdana;
+    background: #f1e8b0;
+    width: 800px;
+    position:relative;
+    padding-top: 11px;
+    padding-left: 35px;
+    padding-bottom: 6px;
+    top: -263px;
+    left: 242px;
+    background-image: url('ptv.png');
+    border-right: solid;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 530px;
+}
+.footer{
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 14;
+    background-color: #ccaa66;
+    height: 80px;
+    border-style: solid;
+    text-align: center;
+    top: -263px;
+    position: relative;
+    padding-top: 28px;
+    padding-bottom: 1px;
+  }
